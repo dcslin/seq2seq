@@ -1,3 +1,5 @@
+### google seq2seq dockerfile tested with nvidia-docker, usage: run the run.sh step by step. unit test passing
+
 [![CircleCI](https://circleci.com/gh/google/seq2seq.svg?style=svg)](https://circleci.com/gh/google/seq2seq)
 
 ---
