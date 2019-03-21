@@ -5,8 +5,8 @@ cd seq2seq
 
 # build docker image and run
 docker build -t s2s .
-docker run --rm -it --runtime nvidia -v `PWD`/seq2seq/:/seq2seq s2s nvidia-smi
-docker run --rm -it --runtime nvidia -v `PWD`/seq2seq/:/seq2seq s2s /bin/bash
+docker run --rm -it --runtime nvidia -v `pwd`/seq2seq/:/seq2seq s2s nvidia-smi
+docker run --rm -it --runtime nvidia -v `pwd`/seq2seq/:/seq2seq s2s /bin/bash
 
 # Install package and dependencies
 cd /seq2seq && \
